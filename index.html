@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Translate</title>
+    </head>
+    <body style="font-family: sans-serif; background: url(./img/rasm.jpg); background-repeat: no-repeat; background-size: cover;">
+        <div
+            class="container"
+            style="
+                display: flex;
+                margin-top: 130px;
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            "
+        >
+        
+            <textarea
+                style="margin: 50px; border: rgb(4, 54, 161) solid 2px;"
+                id="textLotin"
+                cols="40"
+                rows="15"
+                placeholder="Lotincha so'z kiriting..."
+            ></textarea>
+            <div
+                style="
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 110px;
+                "
+            >
+                <img
+                    src="./img/right-arrow.svg"
+                    alt="chap"
+                    style="width: 50px"
+                />
+                <button id="kril" style="width: 100px; height: 40px">
+                    Krill
+                </button>
+                <br />
+                <br>
+                <button style="width: 100px; height: 40px" id="tozala">Tozalash</button><br />
+                <br>
+                <img
+                    src="./img/left-arrow.svg"
+                    alt="chap"
+                    style="width: 50px"
+                />
+                <button id="lotin" style="width: 100px; height: 40px">
+                    Lotin
+                </button>
+            </div>
+            <textarea
+                style="margin: 50px; border: rgb(4, 54, 161) solid 2px"
+                id="textKril"
+                cols="40"
+                rows="15"
+                placeholder="Krillcha so'z kiriting..."
+            ></textarea>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
